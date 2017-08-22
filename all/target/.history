@@ -1,0 +1,68 @@
+run
+show name
+show scala
+show scalaVersion
+ls
+set name. :=("Test")
+name
+set name += "Green"
+name
+set libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.0.6"
+consoleQuick
+set libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.0.6"
+consoleQuick
+session list
+session save
+clear
+reload
+description
+inspect 
+inspect dependency
+inspect description
+show name
+show compile
+inspect compile
+reload
+show compile
+svn clean
+svn install
+sbt clean
+sbt run
+sbt tree
+show tree
+sbt console
+show name
+sbt test
+name.:=("test")
+set name.:=("test")
+name
+set name += " Sbt"
+name
+session list
+run
+compile
+sbt clean test
+help
+publish-local
+compile
+test
+console
+!
+!!
+name <<=baseDirectory.apply(_.getName)
+name <<= baseDirectory.apply(_.getName)
+show name
+name +=Red
+name+= Red
+name += Red
+set name += Red
+set name +=Red
+set name +="Red"
+show name
+inspect compile
+inspect manipulateBytecode
+inspect compileIncremental
+inspect compile:compile::compileReporter
+inspect compile:compile::compileReportor
+inspect compile:compile::compilerReportor
+inspect compile:compile::compilerReporter
